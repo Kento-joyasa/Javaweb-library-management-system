@@ -1,0 +1,30 @@
+
+body{
+	  /* 不变 */
+	background-size: auto 100% !important;
+	background: #CCCCCC url(../img/登陆界面背景.jpg) no-repeat fixed center center;
+}
+
+.box {
+	width: 550px;
+	height: 380px;
+	margin: auto;
+
+	/* 位于浏览器居中 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: rgba(240, 255, 252, 0.7);
+
+	/* 设置圆角 */
+	border-radius: 30px;
+}
+
+.text {
+	font-size: 34px;
+	text-align: center;
+	margin-top: 26px;
+}

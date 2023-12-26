@@ -1,0 +1,257 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.topbar {
+	width: 100%;
+	height: 6.5%;
+	
+	background-color: #202423;
+	
+	overflow: hidden;
+	
+	color: #F5F5F5;
+}
+
+.topbar .title {
+	height: inherit;
+	
+	text-align: center;
+	line-height: 60px;
+	
+	font-size: 28px;
+	font-weight: bold;
+	float: left;
+	letter-spacing:4px;
+}
+
+ul, li { 
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.content {
+	width: 100%;
+	height: 93.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.sidebar {
+	width: 25%;
+	height: 100%;
+	background-color: #5380d2;
+	float: left;
+}
+
+.sidebar ul li{
+	width: inherit;
+	height: 55px;
+	
+	background-color: #202423;
+	color: #F5F5F5;
+	border-bottom: 2px solid #5380d2;
+	
+	line-height: 50px;
+	
+	font-size: 16px;
+	letter-spacing:1px; display: block;	
+	
+}
+
+.sidebar ul li span {
+	margin-left: 30px;
+}
+
+.win-ul {
+	width: 75%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.win-ul li{
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+	float: left;
+}
+
+.win-ul li li{
+}
+
+.top {
+	width: 800px;
+	
+	margin: 0 auto;
+	margin-top: 60px;
+	
+	display: flex;
+}
+
+.top .top-content{
+	margin: 0 auto;
+	font-weight:bold;
+	
+	overflow: auto;
+}
+
+.top .top-content *{
+	text-align: center;
+	float: left;
+}
+
+.win-table .table *{
+	border-color: #C0C0C0;
+}
+
+.win-table .table tr td{
+	width: 28.33333333%;
+}
+
+#win-1 .table tr td {
+	width: 14.66666666%;
+	max-width: 122.26px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.win-table .table thead{
+	font-weight: bold;
+}
+
+.win-table {
+	width: 900px;
+
+	margin: 40px auto 0;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+.bottom-but {
+	width: inherit;
+	height: 30px;
+
+	display: flex;
+}
+
+.bottom-but-ul {
+	margin: 0 auto;
+}
+
+/* 选页按钮 */
+.bottom-but li {
+	width: 30px;
+	height: inherit;
+	background-color: #5380d2;
+	text-align: center;
+	line-height: 30px;
+	color: whitesmoke;
+	border-radius: 8px;
+	margin: 0 5px;
+}
+
+/* 操作单元格 */
+.oper-cell {
+	width: 15%;
+	overflow: hidden;
+}
+
+/* 图书界面操作单元格 */
+.oper-cell-book {
+	width: 12% ! important;
+	overflow: hidden;
+}
+
+/* 更新按钮 */
+.updent-but {
+	float: left;
+	margin: 0 5px;
+}
+
+/* 图书界面更新按钮 */
+.updent-but-book {
+	float: left;
+	margin: 0 3px;
+	width: 38px;
+	padding: 0;
+	text-align: center;
+	line-height: 19.623px;
+	font-size: 13px;
+}
+
+/* 添加界面背景/盒子*/
+.table-add-back {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.8);
+	
+	display: none;
+}
+
+/* 添加界面内容div */
+.table-add-content {
+	width: 550px;
+	height: 600px;
+	margin: 60px auto;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	position: relative;
+}
+
+/* 添加界面标题 */
+.table-add-content .title {
+	width: inherit;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+/* input盒子 */
+.table-add-content .input-box {
+	width: 80%;
+	height: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+/* 添加界面文本框样式 */
+.table-add-content .input-box .table-add-text {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* 添加界面中的按钮样式 */
+.input-box .table-add-but {
+	width: 100px; 
+	margin-left: 22px;
+}
+
+/* 添加界面关闭按钮样式 */
+.table-add-content .close-but {
+	width: 30px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+

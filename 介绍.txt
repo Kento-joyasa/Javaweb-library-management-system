@@ -1,0 +1,15 @@
+使用到的： MYSQL Tomcat JDBC Servlet bootstrap JSP
+
+需要执行数据库sql文件，先生成数据库
+
+mysql版本为5.5x版本
+
+需要idea配置tomcat，使用的是 Tomcat 8.5.57
+
+JDK，版本为8
+
+用户登录账号：root 密码：123456, 也可以打开数据库直接看到user的账号密码
+
+需要修改几个文件中的数据库密码，改为自己电脑上的：bookUpdate.jsp, MyJDBC.java, index.jsp
+
+功能较为简单，能写明白代码的技术会的不太多，就jdbc和servlet写的比较熟练所以用了这两个，jsp主打一个东拼西凑！
